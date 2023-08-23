@@ -24,9 +24,7 @@ function generatePassword(){
 
 function showPass1(){
     let randomPass = generatePassword()
+    let randomPass2 = generatePassword()
     passwordEl.textContent = randomPass
-}
-function showPass2(){
-    let randomPass = generatePassword()
-    passwordEl2.textContent = randomPass
+    passwordEl2.textContent = randomPass2
 }
